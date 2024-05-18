@@ -18,4 +18,15 @@ public class Main {
 
         return result;
     }
+    // Method to print a matrix
+public static void printMatrix(int[][] matrix) {
+    for (int[] row : matrix) {
+        for (int element : row) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
+    }
+}
+
+    
 }
