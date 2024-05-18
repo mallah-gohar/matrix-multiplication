@@ -27,6 +27,25 @@ public static void printMatrix(int[][] matrix) {
         System.out.println();
     }
 }
+public static void main(String[] args) {
+    // Example matrices
+    int[][] firstMatrix = {
+            {1, 2, 3},
+            {4, 5, 6}
+    };
 
+    int[][] secondMatrix = {
+            {7, 8},
+            {9, 10},
+            {11, 12}
+    };
+
+    // Multiply matrices
+    int[][] result = multiplyMatrices(firstMatrix, secondMatrix);
+
+    // Print the result
+    System.out.println("Result of matrix multiplication:");
+    printMatrix(result);
+}
     
 }
